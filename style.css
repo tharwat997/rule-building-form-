@@ -1,0 +1,191 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#form-container{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+}
+
+#dropdown-group{
+	display:flex;
+	justify-content: start;
+	flex-direction:row;
+  align-items: baseline;
+  margin-top:2%;
+}
+
+.padding-class{
+	padding-left:1%;
+	padding-right:1%;
+}
+
+
+#dark-background{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color:#ECEBE9;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+#input-button-group{
+
+}
+
+#tranform-button{
+  background-color: white !important;
+  background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .10rem;
+    border-left: none;
+    font-size: 13px;
+    box-sizing: border-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #4E91FC;
+    font-weight: bold;
+    border-top-right-radius: .25rem!important;
+    border-bottom-right-radius: .25rem !important;
+}
+
+
+
+#tranform-button:focus {
+border-color: #ced4da !important;
+box-shadow: none !important;
+}
+
+
+#Parameter-input{
+border-top-left-radius: .25rem!important;
+border-bottom-left-radius: .25rem !important;
+border-right:  none;
+}
+
+#Parameter-input:focus {
+border-color: #ced4da !important;
+box-shadow: none !important;
+}
+
+#Parameter-input::placeholder{
+  font-style: italic;
+  font-size: 15px;
+}
+
+#dynamic-input{
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-plus-circle:hover{
+cursor: pointer
+}
+
+
+.fa-minus-circle:hover{
+cursor: pointer
+}
+
+
+#tranform-button2{
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-left: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: auto;
+    border-top-left-radius: .1rem!important;
+    border-bottom-left-radius: .1rem !important;
+
+}
+
+#tranform-button2:focus {
+border-color: #ced4da !important;
+box-shadow: none !important;
+}
+
+
+#Parameter-input2{
+  border-top-right-radius: .1rem!important;
+  border-bottom-right-radius: .1rem !important;
+  border-right:  none;
+  width:18%;
+  border-color: #ced4da 1px solid !important;
+  box-shadow: none !important;
+  position: relative;
+  left:0.1em;
+}
+
+#Parameter-input2:focus {
+  border-color: #ced4da !important;
+  box-shadow: none !important;
+}
+
+
+#confirm-button{
+
+  font-size: 14.5px;
+wdith:100%;
+margin-top: 0.5%;
+background-color: #FF8000;
+color: #fff;
+padding: 0.4em 1.5em;
+}
+
+#confirm-button:focus {
+  border-color: #ced4da !important;
+  box-shadow: none !important;
+}
+
+
+#cancel-button{
+font-size: 14.5px;
+wdith:100%;
+margin-top: 0.5%;
+background-color: #686667;
+color: #fff;
+padding: 0.4em 1.7em;
+}
+
+#cancel-button:focus {
+  border-color: #ced4da !important;
+  box-shadow: none !important;
+}
